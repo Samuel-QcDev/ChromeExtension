@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Currency exchange</title>
+    <script src="exchange.js"></script>
+    <style>
+        body {background-color: lightgray;}
+        div {color: blue; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>Exchange Rate Converter</h1>
+    <h3>Convert CAD to foreign</h3>
+    <input type="number" id="amount" placeholder="Enter an amount"/>
+    <select id="currency">
+        <option value="">Select currency</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option>
+        <option value="AUD">AUD</option>
+        <option value="CNY">CNY</option>
+        <option value="HKD">HKD</option>
+        <option value="MXN">MXN</option>
+    </select>
+    <button id="convert">Convert Currency</button>
+    <div id="result"></div>
+    <div id="Country"></div>
+    <h3>Convert foreign to CAD</h3>
+    <input type="number" id="amountForeign" placeholder="Enter an amount"/>
+    <select id="currencyForeign">
+        <option value="">Select currency</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option>
+        <option value="AUD">AUD</option>
+        <option value="CNY">CNY</option>
+        <option value="HKD">HKD</option>
+        <option value="MXN">MXN</option>
+    </select>
+    <button id="convertForeign">Convert Currency</button>
+    <div id="resultForeign"></div>
+    <div id="CountryForeign"></div>
+</body>
+</html>
